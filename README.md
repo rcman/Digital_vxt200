@@ -12,9 +12,9 @@ https://www.vaxarchive.org/hardware/cables.html
 IBM 3W3 Adapter to 3 BNC RGB Video Cable
 
 
-BC29G-10  10ft cable
-BC29G-09	Colour Monitor Cable 9ft	100.00
-BC29G-12	Colour Monitor Cable 12ft 100.00
+BC29G-10  10ft cable<BR>
+BC29G-09	Colour Monitor Cable 9ft	100.00<BR>
+BC29G-12	Colour Monitor Cable 12ft 100.00<BR>
 
 <BR>
 http://www.cablesforcomputers.com/scrpts/groupsearchLink.pl?search=DEC
