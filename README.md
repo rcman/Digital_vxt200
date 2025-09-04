@@ -2,6 +2,12 @@
 
 <BR><BR>
 
+![vxt-frontback](https://github.com/user-attachments/assets/4e503bd6-7720-40f8-9c30-4a5fb9ec323d)
+
+
+<BR><BR>
+
+
 Dec Digital 3W3 bnc rgb cable
 
  You need a video cable with a 3W3 connector on one end. Original was likely a DEC BC29G-10.
