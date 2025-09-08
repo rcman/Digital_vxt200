@@ -1,0 +1,31 @@
+Ah, I see! You have a device with separate BNC connectors for RGB (Blue, Green, Red) - this is a common professional/broadcast video output format. The BNC connectors carry analog RGB signals at broadcast levels.
+To convert this to VGA, you’ll need to handle several things:
+Signal Level Conversion
+	•	BNC RGB is typically at 1V peak-to-peak (broadcast standard)
+	•	VGA RGB expects 0.7V peak-to-peak
+	•	You’ll need level shifters/attenuators to reduce the signal amplitude
+Sync Signal Handling
+Your device likely outputs:
+	•	Sync on Green (SOG) - composite sync mixed with the green signal
+	•	Or separate sync signals on additional BNC connectors not visible in the image
+VGA needs separate horizontal and vertical sync signals.
+Hardware Solutions
+Option 1: RGB to VGA Converter Box
+	•	Look for “RGB BNC to VGA converter” or “SOG to VGA converter”
+	•	These handle the level conversion and sync separation automatically
+	•	Brands like Extron, Kramer, or cheaper Chinese alternatives
+Option 2: DIY Circuit
+	•	Use op-amps to attenuate the RGB signals (1V → 0.7V)
+	•	Sync separator chip like LM1881 to extract H/V sync from composite sync
+	•	75Ω termination resistors on inputs
+	•	Proper impedance matching throughout
+Quick Test Setup:
+You could try simple resistive dividers (1.43:1 ratio) to drop the levels, but this might affect signal quality and won’t handle sync properly.
+Pinout You’ll Need
+	•	BNC R → VGA Pin 1 (Red)
+	•	BNC G → VGA Pin 2 (Green)
+	•	BNC B → VGA Pin 3 (Blue)
+	•	Extracted H-Sync → VGA Pin 13
+	•	Extracted V-Sync → VGA Pin 14
+	•	Ground connections
+What type of vintage computer or device is this from? Knowing the specific model would help identify the exact sync format it uses.​​​​​​​​​​​​​​​​
