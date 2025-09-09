@@ -1,0 +1,82 @@
+1. Make the script executable:
+
+```bash
+sudo chmod +x /usr/local/bin/mopd
+```
+
+1. Install required Python packages:
+
+```bash
+sudo pip3 install python-daemon pidfile
+```
+
+1. Create a systemd service file:
+
+```bash
+sudo nano /etc/systemd/system/mopd.service
+```
+
+Add this content:
+
+```ini
+[Unit]
+Description=MOP-D Network Daemon
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/mopd
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
+```
+
+1. Create log directory and set permissions:
+
+```bash
+sudo mkdir -p /var/log/
+sudo touch /var/log/mopd.log
+sudo chmod 644 /var/log/mopd.log
+```
+
+1. Enable and start the service:
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start mopd
+sudo systemctl enable mopd
+```
+
+1. Check the status:
+
+```bash
+sudo systemctl status mopd
+```
+
+1. View logs:
+
+```bash
+sudo tail -f /var/log/mopd.log
+```
+
+1. Test the daemon (from another terminal or machine):
+
+```bash
+nc localhost 4343
+# Or if testing from another machine:
+# nc your_server_ip 4343
+```
+
+You should see the welcome message and be able to send messages that will be logged.
+
+This implementation provides:
+
+· A basic TCP daemon listening on port 4343
+· Multi-threaded client handling
+· Proper daemonization with PID file
+· Logging to /var/log/mopd.log
+· Systemd service management
+
+You can customize the port, add authentication, or implement specific protocol features based on your needs.
