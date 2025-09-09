@@ -76,3 +76,10 @@ You'll have to snap the end tab off the 13W3 plug to separate the halves so you 
 I guess you could also try to find an actual 3W3 plug. They're still sold, there's just 50,000 SKUs on digikey and almost all of them have power pins instead of coax. I found a VCfed post saying these ones worked, but they come from China so you'll be waiting a while.
 
 <BR>
+
+
+# MOPD
+
+<BR>
+
+https://github.com/dreamlayers/netbsd-mopd
