@@ -32,3 +32,7 @@ Examine the Connector: Look at the connector on the back of your VAX and on your
 found this great site 
 
 https://ibiblio.org/ggicore/documentation/libgii/0.8.x/input-lk201.7.html
+
+
+another 
+https://www.netbsd.org/docs/Hardware/Machines/DEC/lk201.html
