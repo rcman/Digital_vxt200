@@ -38,3 +38,10 @@ another
 https://www.netbsd.org/docs/Hardware/Machines/DEC/lk201.html
 
 https://vt100.net/keyboard.html
+
+
+on the Forum
+
+https://forum.vcfed.org/index.php?threads/wanted-lk201-keyboard-adapter.69623/
+
+
