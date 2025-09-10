@@ -1,0 +1,29 @@
+Digital VAX keyboards typically use a variety of proprietary connectors, such as the 6-pin Modified Modular Jack (MMJ) for serial connections, a 6-pin mini-DIN on VAXstations for mouse, a DB15 male port for combined keyboard/mouse on some models, and an RJ11 or RJ12 style connector on the VAXmate, which often features 6 pins but may only use 4 for the keyboard. The specific connector and pinout vary by VAX model and its age, so it's crucial to identify the exact model. 
+Common Connectors and Pinouts
+
+    Modified Modular Jack (MMJ):
+    Used for serial connections, including some keyboard-related uses, on systems like the VAXstation. 
+
+6-Pin Mini-DIN:
+Primarily for the mouse on systems like the VAXstation 4000, though the keyboard might connect to a different port. 
+DB15 Male Port:
+Used on some VAXstation models as a combined connector for both the keyboard and mouse, as well as video out. 
+RJ12 Style Connector (VAXmate):
+The VAXmate uses a 6-pin RJ12 connector for its keyboard. The pinout is often a straight-through connection, with 4 of the 6 pins typically used for the keyboard's function. 
+
+Key Considerations
+
+    Proprietary Standards:
+    Digital VAX systems often used proprietary connectors and standards, which means a standard keyboard will not plug directly in. 
+
+Keyboard Type:
+The type of keyboard (e.g., for terminals, workstations, or specific models like the VAXmate) will dictate the required connector. 
+Model Variation:
+The connectors and their pinouts vary significantly between different VAX models and generations. 
+
+How to Determine the Correct Pins
+
+    Identify Your VAX Model: Pinouts differ for models like the VAXstation, MicroVAX, and VAXmate. 
+
+Consult Documentation: Refer to the user manual or hardware guide for that specific VAX model. 
+Examine the Connector: Look at the connector on the back of your VAX and on your keyboard to find a matching type or an adapte
