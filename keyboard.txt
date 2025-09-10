@@ -27,3 +27,8 @@ How to Determine the Correct Pins
 
 Consult Documentation: Refer to the user manual or hardware guide for that specific VAX model. 
 Examine the Connector: Look at the connector on the back of your VAX and on your keyboard to find a matching type or an adapte
+
+
+found this great site 
+
+https://ibiblio.org/ggicore/documentation/libgii/0.8.x/input-lk201.7.html
