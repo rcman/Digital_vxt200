@@ -36,3 +36,5 @@ https://ibiblio.org/ggicore/documentation/libgii/0.8.x/input-lk201.7.html
 
 another 
 https://www.netbsd.org/docs/Hardware/Machines/DEC/lk201.html
+
+https://vt100.net/keyboard.html
