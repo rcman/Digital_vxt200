@@ -45,3 +45,27 @@ on the Forum
 https://forum.vcfed.org/index.php?threads/wanted-lk201-keyboard-adapter.69623/
 
 
+A Look at the Terminal
+1.2 Terminal Components
+
+1.2.1 Monitor
+
+The terminal uses a monochrome monitor (VRM17, VR315, VR319) or a color
+monitor (VRC16, VR320, VR326). For information on servicing the monitor, see
+the service guide for each monitor (Appendix A).
+
+1.2.2 Keyboard
+
+The terminal uses an LK400 series keyboard—LK401, LK402, or LK 421.
+
+• The LK401–xx and LK402–xx keyboards have four groups of keys: the main
+
+keyboard, numeric and editing keypads, and top-row function keys. The
+
+keyboards also have two LED indicators (hold and lock) and two audible
+indicators (keyclick and bell). The LK401–xx is the standard version, and the
+LK402–xx is the word processing version.
+• The LK421–xx keyboard is a short version of the LK401 keyboard, often used
+in UNIX environments. The LK421–xx does not have a numeric keypad or
+LED indicators. Users can still perform numeric keypad functions by using
+alternate key sequences
