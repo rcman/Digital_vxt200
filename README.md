@@ -94,3 +94,6 @@ https://www.netbsd.org/docs/network/netboot/tftpd.html
 https://www.netbsd.org/docs/network/netboot/nfs.html
 <BR>
 https://gunkies.org/wiki/Netbooting_a_VAXstation
+<BR>
+https://jack23247.github.io/blog/sysadm/netbsd-vax-netboot/
+
