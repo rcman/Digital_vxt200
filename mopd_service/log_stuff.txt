@@ -1,0 +1,3 @@
+sudo mkdir -p /var/log/
+sudo touch /var/log/mopd.log
+sudo chmod 644 /var/log/mopd.log
