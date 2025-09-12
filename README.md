@@ -83,3 +83,14 @@ I guess you could also try to find an actual 3W3 plug. They're still sold, there
 <BR>
 
 https://github.com/dreamlayers/netbsd-mopd
+
+<BR>
+https://www.netbsd.org/docs/network/netboot/mop.html#linux
+<BR>
+https://www.netbsd.org/docs/network/netboot/bootpd.html
+<BR>
+https://www.netbsd.org/docs/network/netboot/tftpd.html
+<BR>
+https://www.netbsd.org/docs/network/netboot/nfs.html
+<BR>
+
