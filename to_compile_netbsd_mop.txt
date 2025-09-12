@@ -1,0 +1,9 @@
+Download the files from https://github.com/dreamlayers/netbsd-mopd
+
+Unzip them. Go in to the common directory and open port.h for editing.
+
+The Line that says "strlcpy(char *d, const char *s, size_t l)" just change the beginning to something like so  "something_strlcpy(char *d, const char *s, size_t l)"
+
+Exit and save
+
+then if on Linux run make -f Makefile.linux and it should compile
