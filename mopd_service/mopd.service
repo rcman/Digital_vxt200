@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=MOP-D Daemon Controller
+Comment=GUI for controlling the MOP-D network daemon
+Exec=python3 /usr/local/bin/mopd-gui.py
+Icon=network-wired
+Terminal=false
+Type=Application
+Categories=Network;System;
+Keywords=daemon;network;server;
